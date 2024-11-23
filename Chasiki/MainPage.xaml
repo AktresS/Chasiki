@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Chasiki"
+             x:Class="Chasiki.MainPage">
+
+
+    <StackLayout Orientation="Horizontal">
+
+        <Grid x:Name="HourGrid1" ColumnSpacing="4" RowSpacing="4" Padding="100, 100, 30, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid x:Name="HourGrid2" ColumnSpacing="4" RowSpacing="4" Padding="0, 100, 0, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid ColumnSpacing="4" RowSpacing="4" Padding="30, 100, 30, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+
+            <BoxView Color="White" Grid.Column="0" Grid.Row="3" />
+            <BoxView Color="White" Grid.Column="1" Grid.Row="3" />
+
+        </Grid>
+
+        <Grid x:Name="MinuteGrid1" ColumnSpacing="4" RowSpacing="4" Padding="0, 100, 30, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid x:Name="MinuteGrid2" ColumnSpacing="4" RowSpacing="4" Padding="0, 100, 0, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid ColumnSpacing="4" RowSpacing="4" Padding="30, 100, 30, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+
+            <BoxView Color="White" Grid.Column="0" Grid.Row="3" />
+            <BoxView Color="White" Grid.Column="1" Grid.Row="3" />
+
+        </Grid>
+
+        <Grid x:Name="SecondGrid1" ColumnSpacing="4" RowSpacing="4" Padding="0, 100, 30, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid x:Name="SecondGrid2" ColumnSpacing="4" RowSpacing="4" Padding="0, 100, 70, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </StackLayout>
+
+
+
+</ContentPage>

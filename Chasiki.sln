@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chasiki", "Chasiki\Chasiki.csproj", "{0D045978-D497-4788-BFA0-6EBF8F26E2A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D045978-D497-4788-BFA0-6EBF8F26E2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D045978-D497-4788-BFA0-6EBF8F26E2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D045978-D497-4788-BFA0-6EBF8F26E2A6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D045978-D497-4788-BFA0-6EBF8F26E2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D045978-D497-4788-BFA0-6EBF8F26E2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D045978-D497-4788-BFA0-6EBF8F26E2A6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E735A9B4-039A-4E31-AB74-93C7E76644C1}
+	EndGlobalSection
+EndGlobal
